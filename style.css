@@ -1,0 +1,43 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin: 0;
+    padding: 0;
+}
+.cv-container{
+    display: flex;
+    width: 80%;
+    /* background-color: aqua; */
+}
+
+.sider {
+    width: 30%;
+    background-color: #163853;
+    padding: 20px;
+}
+
+.maincontent{
+
+    width: 70%;
+    padding: 20px;
+}
+h1,h2{
+
+    margin: 10px 0;
+}
+
+.contact , .education, .skills, .languages, .profile, .experince, .reference{
+
+    margin-bottom: 20px;
+
+}
+
+.photo img{
+    border-radius: 50%;
+    width: 100%;
+}
+#references{
+    display: flex;
+    justify-content: space-between ;
+}
